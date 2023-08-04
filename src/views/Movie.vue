@@ -21,7 +21,6 @@
 import {ref} from 'vue';
 import { useMovieStore } from '../store/MovieStore'
 const movieStore = useMovieStore();
-// const movie = movieStore.movies[0];
 const movie = movieStore.movieSingle;
 </script>
 
