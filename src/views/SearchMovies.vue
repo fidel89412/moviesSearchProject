@@ -7,7 +7,7 @@
           <movie-item :item="item" @click="openMovie(item.imdbID)"/>
         </el-carousel-item>
       </el-carousel>
-      <el-empty v-else description="description" />
+      <el-empty v-else description="Movies not found" />
     </div>
   </div>
 </template>
